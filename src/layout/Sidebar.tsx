@@ -13,7 +13,7 @@ const Sidebar: FunctionComponent = () => {
                     </div>
                     <div className="sidebar_logo flex items-center text-white px-4 gap-3">
                         <div className="sidebar_logo-img">
-                            <img src="/assets/images/logo.svg" alt="" />
+                            <img src="/assets/images/logo.svg" alt="Logo" />
                         </div>
                         <div className="sidebar_logo-text uppercase font-semibold">
                             enagram
@@ -31,7 +31,7 @@ const Sidebar: FunctionComponent = () => {
                     <Avatar />
                 </div>
                 <div className="menu_btn pr-4 block lg:hidden">
-                    <img src="/assets/images/menu.svg" alt="" />
+                    <img src="/assets/images/menu.svg" alt="Menu" />
                 </div>
             </div>
             <div className="current_location flex items-center p-5 gap-2 lg:hidden border-b-2 border-[#E0E0E0]">
